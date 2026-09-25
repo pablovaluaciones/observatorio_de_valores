@@ -1,0 +1,20 @@
+# Entorno virtual
+.venv/
+venv/
+
+# Archivos generados por Python
+__pycache__/
+*.py[cod]
+
+# Resultados generados por el scraper
+output_files/*
+
+# Archivos temporales del sistema y del editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Variables de entorno y archivos locales
+.env
+.env.*
+!.env.example
